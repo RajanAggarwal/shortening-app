@@ -1,36 +1,6 @@
 <!Doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Your Same Day Twin, A Person who was born on the same day and same year as you.
- They Are Exactly Your Age. See what they look like, where they are, and what they're doing.">
-
-<meta property="fb:app_id" 		  content="270076296753696" />
-<meta Property='og:type'          content="article" />
-<meta property="og:url"           content="http://samedaytwin.com" />
-<meta property="og:title"         content="SameDayTwin" />
-<meta property="og:description"   content="Your Same Day Twin, A Person who was born on the same day and same year as you. They Are Exactly Your Age. See what they look like, where they are, and what they're doing." />
-<meta property="og:image"     content="http://samedaytwin.com/images/logo-for-sharing.png" />
-<meta property="og:image:type" content="image/png" />
-<meta property="og:image:url" content="http://samedaytwin.com/images/logo-for-sharing.png">
-
-<!-- Schema.org markup for Google+ -->
-<link rel="image_src" href="http://samedaytwin.com/images/logo-for-sharing.png"/>
-<meta itemscope itemtype="http://schema.org/Article"/>
-<meta itemprop="headline" content="http://SameDayTwin.com" />
-<meta itemprop="description" content="Your Same Day Twin, A Person who was born on the same day and same year as you.
- They Are Exactly Your Age. See what they look like, where they are, and what they're doing." />
-<meta itemprop="image" content="http://samedaytwin.com/images/logo-for-sharing.png">
-
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="SameDayTwin" />
-<meta name="twitter:description" content="Your Same Day Twin, A Person who was born on the same day and same year as you. They Are Exactly Your Age. See what they look like, where they are, and what they're doing." />
-<meta name="twitter:image" content="http://samedaytwin.com/images/logo-for-sharing.png" />
-
-
-
 <script src="https://apis.google.com/js/platform.js" async defer></script>
 @include('frontend.includes.head') 
 
