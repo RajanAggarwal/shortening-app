@@ -1,0 +1,301 @@
+/* Custom Responsive css*/
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1290px;
+        width: 100%;
+    }
+}
+@media (max-width: 1200px) {
+.user_form .form-box,  .user_form .social_button {
+	padding: 0 50px;
+	background-position: right top;
+}
+.user_form .form-box, .user_form .social_button {
+	padding: 0;
+	width: 100%;
+	background: none;
+}
+    .photos{
+        overflow-y: scroll;
+        height: 100%;
+    }
+    .photos li img{
+        width: 100%;
+    }
+    .job-info{
+        overflow-y: scroll;
+        height: 100%;
+    }
+    #MainNavigation li a{ min-width: 100px;}
+    .home-banner .left h1{font-size: 28px;}
+    .home-banner .left h4{font-size: 18px;}
+}
+@media (max-width: 1100px) {
+.page-title .container {
+  right: 15px;
+}
+.page-title p {
+	padding: 5px 0;
+}
+.page-title h2 {
+	font-size: 18px;
+}
+.page-title .btn {
+	padding: 2px 8px;
+}
+}
+ @media (max-width: 991px) {
+.page-title h2 {
+	font-size: 15px;
+}
+.tab-area {
+  width: 50%;
+} 
+.footer-nav{ text-align: center;}
+.copyright {
+  text-align: center;
+}
+#MainNavigation li a{ min-width: 80px; padding: 0 5px 17px;}
+     #MainNavigation li.header-msg .msg-count {left: 58px; top: 5px;}
+     .LogoPanel{ max-width: 250px;}   
+     #MainNavigation i{ padding-top: 10px;}
+     #MainNavigation .KeepIt100{ min-height: 80px;}
+     .home-banner .left h1{font-size: 30px;}
+     .home-banner .left h4{ font-size:16px; }
+     .twins-slider-title h2{ font-size: 22px;}
+     .app-sec .left h2{ margin-top: 0;}
+     .app-sec .left{ padding-top: 35px;}
+     .user-profile-leftcol{ margin-bottom: 35px;}
+     .right-col{ margin-top: 35px;}
+     .right-cont{ width: 91%;}
+     .home-banner .left{width: 100%; margin-bottom: 30px;}
+     .offer-img {margin-top: 0; }
+     
+     
+}
+ @media (max-width: 767px) {
+ 
+ .language-select{
+ position:absolute;
+ z-index:9999;
+     top: 0;
+     left: 5px;
+ }
+ .main-nav{
+ float:none;
+ }
+
+.page-title .container {
+  margin: 0;
+  padding: 10px;
+  position: static;
+  width: 100%;
+}
+.page-title h2 {
+
+	font-size: 18px;
+}
+ 	.navbar-nav {
+ 		float: none;
+ 	}
+.user_form .form-box,  .user_form .social_button {
+	background: none;
+	width: 100%;
+}
+
+.home-header {
+    margin-top: 0;
+}
+  .video-header {
+  	position: static;
+  	margin: 0;
+  	width: 100%;
+  	max-width: inherit;
+  }   
+    
+.main-page-content {
+    margin-top: 0;
+} 
+.status-box-btm .cropitEnglish{
+    width: 100%;
+    margin-top: 10px;
+     }     
+.AboutMeTxT {
+  bottom: 0;
+  clear: left;
+  padding: 2px 0;
+  position: relative;
+}
+.UserDetailsPanel {
+  padding-top: 15px;
+}
+.top-links {
+  float: right;
+}
+.top-links ul{
+    margin: 0;
+}
+.top-links > ul > li{
+    float: left;
+    }
+     .navbar-header .navbar-toggle{
+         background: #be5ed1;
+         margin-top: 12px;
+     }   
+     .navbar-header .navbar-toggle span{
+         background: #fff;
+     }
+     .LogoPanel{
+         max-width: 170px;
+     }  
+     #MainNavigation li{
+         width: 100%;
+     }
+     #MainNavigation li.header-msg .msg-count {left: 50%; margin-left: 5px; top: 5px;}
+     .main-nav {
+          position: absolute;
+          z-index: 999999;
+         background:rgba(98,78,164,0.9);
+         width: 100%;
+         padding: 0;
+     }
+     .TopMenu .open .dropdown-menu{
+         position: absolute;
+         right: 0;
+         left: auto;
+     }
+     .chat-dob-date{ padding-left: 8px;}
+     .twins-slider .twins-col .text{ padding-left: 0; padding-right: 0;}
+     .status-post-head .pic{ width: 100%; margin-bottom: 15px;}
+     .right-cont{ width: 100%; padding-left: 0;}
+     .comment-area .listing{ padding-left: 0px;}
+     .four-tabs .tab-area{ width: 50%;}   
+     .team-container{margin-bottom: 30px; min-height: initial}
+     .content {margin: 30px auto; }
+     .content-sec .content-col, .content-sec .sidebar-col{overflow: hidden;}
+     .contact-map iframe{
+        height: 200px;
+     }
+     .privacy-policy{padding: 0 20px; overflow: hidden}
+     .job-info li{padding: 10px 12px}
+     .modal-dialog{width: auto; margin: 20px;top: 5%;}
+     .ProfileImgPanel{margin-top: 50px; float: none}
+     .UserDetailsPanel .row{position: static;}
+     .language-select.LanguageConverter .dropdown-menu{right: -10px;}
+     .language-select .dropdown-menu li {border-top: thin solid rgba(255, 255, 255, 0.15); }
+     .CoverPhotoPanel{background-size: cover;}
+     .contact-address{margin-bottom: 30px}
+     .CoverPhotoPanel{margin-bottom: 30px;}
+     .CoverPhotoPanel .social-links {bottom: -32px; left: 15px; position: absolute; right: auto;}
+}
+
+@media all and (max-width: 640px){
+  .CreateGroupModal .modal-body .user-frined-online ul li{
+    width: 100%;
+  }
+  .CreateGroupModal .user-frined-online ul li .fa{
+    top: 20px;
+  }
+  #coverpic-change {
+    width: 80%;
+    left: 10%;
+    margin: 40px 0;
+  }
+}
+ @media (max-width: 540px) {
+.user_form .form-box,  .user_form .social_button {
+	padding: 0 15px;
+	background: none;
+	width: 100%;
+}
+.tab-area {
+  width: 100%;
+}
+.photos li {
+  width: 25%;
+}
+     .chat-dob-date .combodate{ width: 100%;}
+     .search-date {
+  float: left;
+  margin-bottom: 20px;
+  width: 98%;
+     }
+    .chat-dob-date select,
+    .profile-dob-date select {
+      width: 30.7% !important;
+    }
+
+    .footer-text h2 {
+      font-size: 22px;
+    }
+
+    .footer-text h3 {
+      font-size: 16px;
+    }
+
+    .twins-list-sec ul li {
+      width: 100%;
+      margin-right: 0;
+      text-align: center;
+    }
+
+    .twins-list-sec ul li .twins-block {
+      margin-left: 0;
+    }
+
+    .twins-list-sec ul li span {
+      float: none !important;
+    }
+
+    .dig-area .text-area h1 {
+      font-size: 14px;
+      line-height: 21px;
+      padding: 0 15px;
+    }
+
+    .twins-list-sec ul li {
+      background-size: auto 160px !important;
+    }
+
+    .LanguageConverter a span {
+      display: none;
+    }
+
+    .LanguageConverter img {
+      margin: 7px 0 0 10px;
+    }
+
+    .footer-nav li a {
+      padding: 5px 4px;
+    }
+
+    .album {
+      min-height: 221px;
+    }
+
+    .user_form {
+      padding: 0
+    }
+}
+
+
+
+ @media (max-width: 479px) {
+
+.profile-dob-date h3 {
+  float: none;
+  margin: 0 0 10px 0;
+}
+.profile-dob-date > div {
+  margin-left: 0;
+}
+.profile-dob-date > div select {
+  width: 31.5% !important;
+}
+     .app-sec .left h2{ font-size: 30px;}
+     .app-sec .left{
+         font-size: 14px;
+     }
+     .four-tabs .tab-area{ width: 100%;}  
+}
